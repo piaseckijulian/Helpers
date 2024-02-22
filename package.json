@@ -1,0 +1,28 @@
+{
+  "name": "@piaseckijulian/helpers",
+  "version": "1.0.0",
+  "description": "A set of helper functions and utilities",
+  "main": "dist/index.mjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "url": "git+https://github.com/piaseckijulian/Helpers.git"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "helpers",
+    "utilities",
+    "functions"
+  ],
+  "author": "Julian Piasecki",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
