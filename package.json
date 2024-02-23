@@ -6,10 +6,7 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
-  "homepage": "https://github.com/piaseckijulian/Helpers",
-  "repository": {
-    "url": "git+https://github.com/piaseckijulian/Helpers.git"
-  },
+  "repository": "github:piaseckijulian/Helpers",
   "scripts": {
     "build": "tsup",
     "lint": "tsc",
