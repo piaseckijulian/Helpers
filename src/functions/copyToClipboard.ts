@@ -1,11 +1,13 @@
-import clipboardy from 'clipboardy';
-
-const copyToClipboard = (content: string) => {
+const copyToClipboard = async (content: string) => {
   if (typeof content !== 'string') {
     throw new Error('Invalid input. Please enter a string');
   }
 
-  clipboardy.writeSync(content);
+  const {
+    default: { writeSync }
+  } = await import('clipboardy');
+
+  writeSync(content);
 };
 
 export default copyToClipboard;
