@@ -1,4 +1,4 @@
-# Helpers - ⭐NPM Package with helper functions
+# Helpers - 🚀NPM Package with helper functions
 
 A set of helper functions and utilities
 
