@@ -18,7 +18,7 @@ npm i @piaseckijulian/helpers
 
 Just import the functions of your choice, and you're good to go.
 
-<img src="./images/usage.png" alt="Use of average() function" width="500" height="250"/>
+<img src="./images/usage.png" alt="Use of average() function" width="600" height="300"/>
 
 ## ⚙️ Functions:
 
