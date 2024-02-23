@@ -8,28 +8,23 @@ npm i @piaseckijulian/helpers
 
 ## Functions
 
-- countOccurrences
+- average
+- calculatePercent
+- capitalize
+- copyToClipboards
+- factorial
 - getRandomItem
 - insert
 - isEmpty
 - isEqual
+- isEven
 - pluck
 - removeDuplicates
+- reverse
 - shuffle
 - sortBy
-- sum
-- average
-- calculatePercent
-- factorial
-- hexToRgba
-- isEven
-- rgbToHex
-- capitalize
-- isValidEmail
-- reverse
 - titleCase
 - truncate
-- copyToClipboards
 - wait
 
 ## [Check it out on NPM](https://www.npmjs.com/package/@piaseckijulian/helpers)

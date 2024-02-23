@@ -1,4 +1,4 @@
-import * as utils from './functions';
-export default utils;
+import * as functions from './functions';
+export default functions;
 
 export * from './functions';
