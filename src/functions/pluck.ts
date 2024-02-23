@@ -2,6 +2,15 @@ interface AnyObject {
   [key: string]: any;
 }
 
-const pluck = (array: AnyObject[], key: string) => array.map(obj => obj[key]);
+const pluck = (arr: AnyObject[], key: string) => {
+  const errorCondition =
+    !Array.isArray(arr) || !arr.every(el => typeof el === 'object' && !Array.isArray(el));
+
+  if (errorCondition || typeof key !== 'string') {
+    throw new Error('Invalid input. Please enter an array of objects');
+  }
+
+  return arr.map(obj => obj[key]);
+};
 
 export default pluck;

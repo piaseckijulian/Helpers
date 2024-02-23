@@ -2,16 +2,17 @@
   "name": "@piaseckijulian/helpers",
   "version": "1.0.2",
   "description": "A set of helper functions and utilities",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "type": "module",
+  "homepage": "https://github.com/piaseckijulian/Helpers",
   "repository": {
     "url": "git+https://github.com/piaseckijulian/Helpers.git"
   },
   "scripts": {
-    "start": "node dist/index.js",
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "start": "node ./dist/index.js",
+    "build": "tsup",
     "lint": "tsc",
     "test": "jest"
   },
