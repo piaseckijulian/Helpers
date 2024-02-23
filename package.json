@@ -1,6 +1,6 @@
 {
   "name": "@piaseckijulian/helpers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A set of helper functions and utilities",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -11,7 +11,6 @@
     "url": "git+https://github.com/piaseckijulian/Helpers.git"
   },
   "scripts": {
-    "start": "node ./dist/index.js",
     "build": "tsup",
     "lint": "tsc",
     "test": "jest"
