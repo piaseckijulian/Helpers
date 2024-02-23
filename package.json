@@ -1,6 +1,6 @@
 {
   "name": "@piaseckijulian/helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A set of helper functions and utilities",
   "main": "dist/index.js",
   "module": "dist/index.js",
