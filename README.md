@@ -18,7 +18,7 @@ npm i @piaseckijulian/helpers
 
 Just import the functions of your choice, and you're good to go.
 
-<img src="./images/usage.png" alt="Use of average() function" width="600" height="300"/>
+<img src="./images/usage.png" alt="Use of average() function" width="800" height="400"/>
 
 ## ⚙️ Functions:
 
@@ -41,6 +41,6 @@ Just import the functions of your choice, and you're good to go.
 - truncate(text)
 - wait(milliseconds)
 
-## Contribution
+## 🌐 Contribution
 
 If you want to contribute to this amazing project simply raise an **Issue** when you found a bug or you are requesting a new feature. However if you want to do it yourself create a **Pull Request**.
