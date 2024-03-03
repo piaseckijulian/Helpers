@@ -20,7 +20,7 @@ Just import the functions of your choice, and you're good to go.
 
 <img src="./images/usage.png" alt="Use of average() function" width="800" height="400"/>
 
-## ⚙️ Functions:
+## ⚙️ Functions
 
 - average(number)
 - calculatePercent(number)
