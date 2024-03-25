@@ -13,8 +13,7 @@
     "lint:tsc": "tsc",
     "test": "jest",
     "format": "prettier . -w",
-    "format:check": "prettier . -c",
-    "ci:version": "changeset version"
+    "format:check": "prettier . -c"
   },
   "keywords": [
     "helpers",
@@ -24,7 +23,6 @@
   "author": "Julian Piasecki",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.20",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
