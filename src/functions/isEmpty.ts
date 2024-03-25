@@ -1,4 +1,4 @@
-const isEmpty = (arr: any[]) => {
+const isEmpty = (arr: unknown[]) => {
   if (!Array.isArray(arr)) {
     throw new Error('Invalid input. Please enter an array');
   }

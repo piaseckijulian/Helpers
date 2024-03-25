@@ -7,6 +7,7 @@ describe('pluck', () => {
     { id: 1, name: 'John', age: 20 }
   ];
 
+  // eslint-disable-next-line quotes
   test("Returns an array of people's names", () => {
     expect(pluck(people, 'name')).toEqual(['Adam', 'Robert', 'John']);
   });

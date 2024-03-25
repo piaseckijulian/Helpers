@@ -1,4 +1,4 @@
-const getRandomItem = (items: any[]) => {
+const getRandomItem = <T>(items: T[]): T => {
   if (!Array.isArray(items)) {
     throw new Error('Invalid input. Please enter an array');
   }

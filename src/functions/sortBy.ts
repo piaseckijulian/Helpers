@@ -1,8 +1,6 @@
-interface AnyObject {
-  [key: string]: any;
-}
+type AnyObject = Record<string, unknown>;
 
-const sortBy = (arr: AnyObject[], key: string) => {
+const sortBy = <T extends AnyObject, K extends keyof T>(arr: T[], key: K): T[] => {
   const errorCondition =
     !Array.isArray(arr) || !arr.every(el => typeof el === 'object' && !Array.isArray(el));
 

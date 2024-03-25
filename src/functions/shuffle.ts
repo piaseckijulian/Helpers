@@ -1,4 +1,4 @@
-const shuffleArray = (arr: any[]) => {
+const shuffleArray = <T>(arr: T[]) => {
   if (!Array.isArray(arr)) {
     throw new Error('Invalid input. Please enter an array');
   }

@@ -1,8 +1,6 @@
-interface AnyObject {
-  [key: string]: any;
-}
+type AnyObject = Record<string, unknown>;
 
-const pluck = (arr: AnyObject[], key: string) => {
+const pluck = <T extends AnyObject, K extends keyof T>(arr: T[], key: K): Array<T[K]> => {
   const errorCondition =
     !Array.isArray(arr) || !arr.every(el => typeof el === 'object' && !Array.isArray(el));
 
