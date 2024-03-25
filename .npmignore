@@ -1,0 +1,9 @@
+/node_modules
+/src
+/.github
+.prettierrc.json
+.eslintrc.json
+CODE_OF_CONDUCT.md
+tsconfig.json
+tsup.config.ts
+jest.config.js
