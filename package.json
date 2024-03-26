@@ -14,7 +14,7 @@
     "test": "jest",
     "format": "prettier . -w",
     "format:check": "prettier . -c",
-    "prepare": "husky init"
+    "prepare": "husky"
   },
   "keywords": [
     "helpers",
