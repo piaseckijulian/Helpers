@@ -41,6 +41,6 @@ Just import the functions of your choice, and you're good to go.
 - truncate()
 - wait()
 
-## 🌐 Contribution
+## 🌐 License
 
-If you want to contribute to this amazing project simply raise an **Issue** when you found a bug or you are requesting a new feature. However if you want to do it yourself create a **Pull Request**.
+This software is licensed under the [MIT License](https://github.com/piaseckijulian/Helpers/blob/main/LICENSE)
