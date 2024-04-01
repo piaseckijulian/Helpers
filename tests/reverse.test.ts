@@ -1,4 +1,4 @@
-import reverse from '../functions/reverse';
+import reverse from '../src/functions/reverse';
 
 describe('reverse', () => {
   test('Paper reversed is: repaP', () => {

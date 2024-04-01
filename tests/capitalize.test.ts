@@ -1,4 +1,4 @@
-import capitalize from '../functions/capitalize';
+import capitalize from '../src/functions/capitalize';
 
 describe('capitalize', () => {
   test('john dOe capitalized is: John dOe', () => {

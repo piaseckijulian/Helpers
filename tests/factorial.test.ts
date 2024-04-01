@@ -1,4 +1,4 @@
-import factorial from '../functions/factorial';
+import factorial from '../src/functions/factorial';
 
 describe('factorial', () => {
   test('Factorial of 1 is equal: 1', () => {

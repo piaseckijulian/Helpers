@@ -1,4 +1,4 @@
-import pluck from '../functions/pluck';
+import pluck from '../src/functions/pluck';
 
 describe('pluck', () => {
   const people = [

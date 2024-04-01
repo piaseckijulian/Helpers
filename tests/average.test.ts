@@ -1,4 +1,4 @@
-import average from '../functions/average';
+import average from '../src/functions/average';
 
 describe('average', () => {
   test('Average of 1, 2, 3, 4, 5 is equal: 3', () => {

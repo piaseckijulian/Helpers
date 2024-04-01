@@ -1,4 +1,4 @@
-import isEmpty from '../functions/isEmpty';
+import isEmpty from '../src/functions/isEmpty';
 
 describe('isEmpty', () => {
   test('Array is empty', () => {

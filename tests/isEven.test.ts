@@ -1,4 +1,4 @@
-import isEven from '../functions/isEven';
+import isEven from '../src/functions/isEven';
 
 describe('isEven', () => {
   test('2 is even', () => {

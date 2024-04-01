@@ -1,4 +1,4 @@
-import isEqual from '../functions/isEqual';
+import isEqual from '../src/functions/isEqual';
 
 describe('isEqual', () => {
   test('Arrays are equal', () => {

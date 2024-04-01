@@ -1,4 +1,4 @@
-import sortBy from '../functions/sortBy';
+import sortBy from '../src/functions/sortBy';
 
 describe('sortBy', () => {
   const people = [

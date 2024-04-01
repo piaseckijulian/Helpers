@@ -1,4 +1,4 @@
-import calculatePercent from '../functions/calculatePercent';
+import calculatePercent from '../src/functions/calculatePercent';
 
 describe('calculatePercent', () => {
   test('10 is 10% of 100', () => {

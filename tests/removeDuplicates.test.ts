@@ -1,4 +1,4 @@
-import removeDuplicates from '../functions/removeDuplicates';
+import removeDuplicates from '../src/functions/removeDuplicates';
 
 describe('removeDuplicates', () => {
   test('[1, 1, 3, 5, 5, 1, 9] without duplicates is: [1, 3, 5, 9]', () => {
