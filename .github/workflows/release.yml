@@ -30,7 +30,6 @@ jobs:
           version-file: './package.json'
           git-branch: 'release-from-${{ github.sha }}'
           skip-git-pull: true
-          output-file: false
 
       - name: Create PR
         if: steps.changelog.outputs.skipped == 'false'
@@ -53,3 +52,5 @@ jobs:
           tag: ${{ steps.changelog.outputs.tag }}
           name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
+          draft: false
+          prerelease: false
