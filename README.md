@@ -32,6 +32,7 @@ Just import the functions of your choice, and you're good to go.
 - isEmpty()
 - isEqual()
 - isEven()
+- isPalindrome()
 - pluck()
 - removeDuplicates()
 - reverse()
@@ -39,6 +40,7 @@ Just import the functions of your choice, and you're good to go.
 - sortBy()
 - titleCase()
 - truncate()
+- validateEmail()
 - wait()
 
 ## 🌐 License
