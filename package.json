@@ -11,7 +11,7 @@
     "build": "tsup",
     "lint": "eslint .",
     "lint:tsc": "tsc",
-    "test": "vitest",
+    "test": "vitest run",
     "coverage": "vitest run --coverage",
     "format": "prettier . -w",
     "format:check": "prettier . -c",
