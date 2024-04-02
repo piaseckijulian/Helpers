@@ -23,12 +23,6 @@ jobs:
       - name: Switch to new branch
         run: git checkout release-from-${{ github.sha }}
 
-      - name: Get version
-        id: package-version
-        run: |
-          LF_VERSION=$(cat package.json | jq -r '.version')
-          echo "current-version=$LF_VERSION" >> "$GITHUB_OUTPUT"
-
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
