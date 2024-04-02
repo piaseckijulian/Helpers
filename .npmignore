@@ -1,9 +1,12 @@
+/.github
+/.husky
+/coverage
 /node_modules
 /src
-/.github
-.prettierrc.json
+/tests
 .eslintrc.json
+.prettierrc.json
 CODE_OF_CONDUCT.md
+commitlint.config.js
 tsconfig.json
 tsup.config.ts
-jest.config.js

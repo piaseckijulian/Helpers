@@ -1,11 +1,20 @@
+import { describe, expect, it } from 'vitest';
 import isEven from '../src/functions/isEven';
 
 describe('isEven', () => {
-  test('2 is even', () => {
-    expect(isEven(2)).toBe(true);
+  it('should return true for 2', () => {
+    const n = 2;
+
+    const result = isEven(n);
+
+    expect(result).toBe(true);
   });
 
-  test('3 is not even', () => {
-    expect(isEven(3)).toBe(false);
+  it('should return false for 3', () => {
+    const n = 3;
+
+    const result = isEven(n);
+
+    expect(result).toBe(false);
   });
 });

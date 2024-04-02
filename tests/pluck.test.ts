@@ -1,14 +1,17 @@
+import { describe, expect, it } from 'vitest';
 import pluck from '../src/functions/pluck';
 
 describe('pluck', () => {
-  const people = [
-    { id: 2, name: 'Adam', age: 35 },
-    { id: 3, name: 'Robert', age: 40 },
-    { id: 1, name: 'John', age: 20 }
-  ];
+  it('should return array of names', () => {
+    const arr = [
+      { id: 2, name: 'Adam', age: 35 },
+      { id: 3, name: 'Robert', age: 40 },
+      { id: 1, name: 'John', age: 20 }
+    ];
+    const key = 'name';
 
-  // eslint-disable-next-line quotes
-  test("Returns an array of people's names", () => {
-    expect(pluck(people, 'name')).toEqual(['Adam', 'Robert', 'John']);
+    const result = pluck(arr, key);
+
+    expect(result).toEqual(['Adam', 'Robert', 'John']);
   });
 });

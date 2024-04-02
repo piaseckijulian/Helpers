@@ -1,11 +1,20 @@
+import { describe, expect, it } from 'vitest';
 import isEmpty from '../src/functions/isEmpty';
 
 describe('isEmpty', () => {
-  test('Array is empty', () => {
-    expect(isEmpty([])).toBe(true);
+  it('should return true for []', () => {
+    const arr = [];
+
+    const result = isEmpty(arr);
+
+    expect(result).toBe(true);
   });
 
-  test('Array is not empty', () => {
-    expect(isEmpty([1, 2, 3, 4, 5])).toBe(false);
+  it('should return false for [1, 2, 3]', () => {
+    const arr = [1, 2, 3];
+
+    const result = isEmpty(arr);
+
+    expect(result).toBe(false);
   });
 });

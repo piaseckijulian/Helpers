@@ -1,11 +1,22 @@
+import { describe, expect, it } from 'vitest';
 import calculatePercent from '../src/functions/calculatePercent';
 
 describe('calculatePercent', () => {
-  test('10 is 10% of 100', () => {
-    expect(calculatePercent(10, 100)).toBe(10);
+  it('should return 50% for 250, 500', () => {
+    const value = 250;
+    const total = 500;
+
+    const result = calculatePercent(value, total);
+
+    expect(result).toBe(50);
   });
 
-  test('1 is 33% of 3', () => {
-    expect(calculatePercent(1, 3)).toBe(33);
+  it('should return 33% for 1, 3', () => {
+    const value = 1;
+    const total = 3;
+
+    const result = calculatePercent(value, total);
+
+    expect(result).toBe(33);
   });
 });

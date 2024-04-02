@@ -1,7 +1,12 @@
+import { describe, expect, it } from 'vitest';
 import reverse from '../src/functions/reverse';
 
 describe('reverse', () => {
-  test('Paper reversed is: repaP', () => {
-    expect(reverse('Paper')).toBe('repaP');
+  it('should return repaP for Paper', () => {
+    const string = 'Paper';
+
+    const result = reverse(string);
+
+    expect(result).toBe('repaP');
   });
 });
