@@ -1,3 +1,12 @@
+## [0.1.3](https://github.com/piaseckijulian/Helpers/compare/v0.1.2...v0.1.3) (2024-04-02)
+
+
+### Bug Fixes
+
+* publish workflow still not running ([5f6a968](https://github.com/piaseckijulian/Helpers/commit/5f6a96822bcc2636951b32c0304f05b0d77de7a4))
+
+
+
 ## [0.1.2](https://github.com/piaseckijulian/Helpers/compare/v0.1.1...v0.1.2) (2024-04-02)
 
 
