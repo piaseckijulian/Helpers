@@ -6,7 +6,6 @@
 /tests
 .eslintrc.json
 .prettierrc.json
-CHANGELOG.md
 CODE_OF_CONDUCT.md
 commitlint.config.js
 tsconfig.json
