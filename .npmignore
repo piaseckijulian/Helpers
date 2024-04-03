@@ -1,0 +1,15 @@
+/.github
+/.husky
+/coverage
+/node_modules
+/src
+/tests
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+commitlint.config.js
+tsconfig.json
+tsup.config.ts
+vite.config.ts
