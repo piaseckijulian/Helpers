@@ -7,12 +7,11 @@
   "repository": "github:piaseckijulian/Helperize",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint .",
+    "lint": "prettier . --check && eslint .",
+    "format": "prettier . --write",
     "test": "vitest run",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
-    "format": "prettier . -w",
-    "format:check": "prettier . -c",
     "prepare": "husky"
   },
   "keywords": [
