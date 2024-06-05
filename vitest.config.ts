@@ -6,12 +6,7 @@ export default defineConfig({
       exclude: [
         '**/src/index.ts',
         '**/commitlint.config.js',
-        '**/src/functions/index.ts',
-        // Functions that cannot be tested
-        '**/src/functions/wait.ts',
-        '**/src/functions/copyToClipboard.ts',
-        '**/src/functions/shuffle.ts',
-        '**/src/functions/getRandomItem.ts'
+        '**/src/functions/index.ts'
       ],
       reporter: ['text', 'json-summary', 'json'],
       reportOnFailure: true
