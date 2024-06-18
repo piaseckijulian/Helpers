@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/piaseckijulian/Helperize/compare/v0.1.1...v0.1.2) (2024-06-18)
+
+
+### Bug Fixes
+
+* remove copyToClipboard function ([21a3aa0](https://github.com/piaseckijulian/Helperize/commit/21a3aa0a4eaefef7b3a23d418055bef5aa29d1ae))
+
+
+
 ## [0.1.1](https://github.com/piaseckijulian/Helperize/compare/v0.1.0...v0.1.1) (2024-06-03)
 
 
