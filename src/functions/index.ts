@@ -1,7 +1,6 @@
 export { default as average } from './average.js';
 export { default as calculatePercent } from './calculatePercent.js';
 export { default as capitalize } from './capitalize.js';
-export { default as copyToClipboard } from './copyToClipboard.js';
 export { default as factorial } from './factorial.js';
 export { default as getRandomItem } from './getRandomItem.js';
 export { default as insert } from './insert.js';

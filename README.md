@@ -25,7 +25,6 @@ Just import the functions of your choice, and you're good to go.
 - average()
 - calculatePercent()
 - capitalize()
-- copyToClipboard()
 - factorial()
 - getRandomItem()
 - insert()
